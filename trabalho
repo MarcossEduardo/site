@@ -106,17 +106,53 @@
                 background-color:#7CFC00;
             }
             .centro1{
-                width:950px;
+                width:1710px;
                 height:50%;
                 background-color:black;
                 float:left;
                 display:inline-block;
             }
+            .divisao1{
+                width:inherit;
+                height:50%;
+                background-color:palevioletred;
+                float:right;
+                display:inline-block;
+            }
+            .divisao2{
+                width:inherit;
+                height:50%;
+                background-color:paleturquoise;
+                float:right;
+                display:inline-block;
+            }
             .centro2{
-                width:950px;
+                width:1710px;
                 height:50%;
                 background-color:red;
+                float:left;
                 display:inline-block;
+            }
+            .divisao3{
+                width:33%;
+                height:inherit;
+                background-color:teal;
+                display:inline-block;
+                float:right;
+            }
+            .divisao4{
+                width:33%;
+                height:inherit;
+                background-color:sienna;
+                display:inline-block;
+                float:left;
+            }
+            .divisao5{
+                width:34%;
+                height:inherit;
+                background-color:firebrick;
+                display:inline-block;
+                float:left;
             }
             .direita{
                 width:190px;
@@ -169,13 +205,25 @@
                 </div>
                 <div class="centro">
                     <div class="centro1">
+                        <div class="divisao1">
+
+                        </div>
+                        <div class="divisao2">
+
+                        </div>
 
                     </div>
                     <div class="centro2">
-                   
-                    </div>
-                    <div class="centro3">
+                        <div class="divisao3">
 
+                        </div>
+                        <div class="divisao4">
+
+                        </div>
+                        <div class="divisao5">
+
+                        </div>
+                   
                     </div>
                 </div>
                 <div class="direita">
