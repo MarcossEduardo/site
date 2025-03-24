@@ -27,14 +27,14 @@
             .header2{
                 width:25%;
                 height:inherit;
-                background-color:salmon;
+                background-color:rgb(178, 93, 248);
                 display:inline-block;
                 float:left;
             }
             .header3{
                 width:25%;
                 height:inherit;
-                background-color:darkred;
+                background-color:rgb(0, 119, 255);
                 display:inline-block;
                 float:left;
             }
@@ -49,31 +49,33 @@
                 width:1900px;
                 height:630px;
                 padding:0px;
+                float:right;
             }
+            
             .footer{
                 width:1900px;
-                height:140px;
+                height:315px;
                 padding:0px;
-                background-color:blue;
+                background-color:rgb(0, 255, 242);
             }
             .footer1{
                 width:33%;
-                height:inherit;
+                height:150px;
                 background-color:cyan;
                 display:inline-block;
                 float:left;
             }
             .footer2{
                 width:33%;
-                height:inherit;
+                height:150px;
                 background-color:crimson;
                 display:inline-block;
                 float:left;
             }
             .footer3{
                 width:34%;
-                height:inherit;
-                background-color:aquamarine ;
+                height:150px;
+                background-color:blue;
                 display:inline-block;
                 float:left;
             }
@@ -91,86 +93,62 @@
             .esquerda2{
                 width:inherit;
                 height:33%;
-                background-color:sienna;
-            }
-            .esquerda3{
-                width:inherit;
-                height:34%;
-                background-color:pink;
+                background-color: bisque;
+                display:inline-block;
+                float:left;
             }
             .centro{
                 width:1px;
-                height:inherit;
-                display:inline-block;
-                float:left;
-                background-color:#7CFC00;
-            }
-            .centro1{
-                width:1710px;
-                height:50%;
-                background-color:black;
-                float:left;
-                display:inline-block;
-            }
-            .divisao1{
-                width:inherit;
-                height:50%;
-                background-color:palevioletred;
-                float:right;
-                display:inline-block;
-            }
-            .divisao2{
-                width:inherit;
-                height:50%;
-                background-color:paleturquoise;
-                float:right;
-                display:inline-block;
-            }
-            .centro2{
-                width:1710px;
-                height:50%;
-                background-color:red;
-                float:left;
-                display:inline-block;
-            }
-            .divisao3{
-                width:33%;
-                height:inherit;
-                background-color:teal;
-                display:inline-block;
-                float:right;
-            }
-            .divisao4{
-                width:33%;
-                height:inherit;
-                background-color:sienna;
-                display:inline-block;
-                float:left;
-            }
-            .divisao5{
-                width:34%;
-                height:inherit;
-                background-color:firebrick;
-                display:inline-block;
-                float:left;
-            }
-            .direita{
-                width:190px;
                 height:630px;
                 display:inline-block;
                 float:left;
                 background-color:#7CFC00;
             }
+            .centro1{
+                width:950px;
+                height:50%;
+                background-color:black;
+                display:inline-block;
+                float:left;
+            }
+            .centro2{
+                width:1200px;
+                height:50%;
+                background-color:rgb(255, 145, 0);
+                display:inline-block;
+                float:left;
+            }
+            .divisão{
+                width:510px;
+                height:400px;
+                background-color:rgb(179, 255, 0);
+                display:inline-block;
+                float:right;
+            }
+            .divisão1{
+                width:1710px;
+                height:400px;
+                background-color:rgb(255, 70, 156);
+               
+            }
+            .direita{
+                width:190px;
+                height:630px;
+                background-color:powderblue;
+                display:inline-block;
+                float:left;
+            }
             .direita1{
                 width:inherit;
                 height:50%;
-                background-color:gray;
+                background-color:rgb(111, 168, 151);
             }
             .direita2{
                 width:inherit;
                 height:50%;
                 background-color:purple;
             }
+           
         </style>
     </head>
     <body>
@@ -189,8 +167,11 @@
 
                 </div>
 
-           </div>
-           <div class="main">
+            </div>
+            <div class="main">
+                <div class="main1">
+
+                </div>
                 <div class="esquerda">
                     <div class="esquerda1">
 
@@ -198,42 +179,27 @@
                     <div class="esquerda2">
 
                     </div>
-                    <div class="esquerda3">
-
-                    </div>
-
+                    
                 </div>
                 <div class="centro">
                     <div class="centro1">
-                        <div class="divisao1">
-
-                        </div>
-                        <div class="divisao2">
-
-                        </div>
-
-                    </div>
+                    </div>  
+                    
                     <div class="centro2">
-                        <div class="divisao3">
-
-                        </div>
-                        <div class="divisao4">
-
-                        </div>
-                        <div class="divisao5">
-
-                        </div>
-                   
+                    <div class="divisão"> 
                     </div>
+                        <div class="divisão1">
+                        </div>
+                       
+                    </div>
+                    
                 </div>
                 <div class="direita">
                     <div class="direita1">
 
                     </div>
                     <div class="direita2">
-
                     </div>
-                    
                 </div>
            </div>
            <div class="footer">
@@ -246,6 +212,7 @@
                 <div class="footer3">
 
                 </div>
+           </div>
         </div>
     </body>
 </html>
