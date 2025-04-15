@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="PT-BR">
     <head>
@@ -6,55 +7,11 @@
         <meta charset="utf-8">
         <script src="jquery.js"></script>
         <script>
-            $(document).ready(function(){
-                alert("yxDuduツ");
-                
-            });
+           
 
         </script>
         <style>
-            .site{
-                width:1900px;
-                height:930px;
-            }
-            .header{
-                width:1900px;
-                height:150px;
-                background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
-            }
-            .main{
-                width:1900px;
-                height:630px;
-            }
-            .footer{
-                width:1900px;
-                height:140px;
-                background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
-           }
-            .esquerda{
-                width:190px;
-                height:630px;
-                display:inline-block;
-                float:left;
-                background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
-            }
-                
-            .centro{
-                width:1px;
-                height:630px;
-                display:inline-block;
-                float:left;
-                background-image:url("https://p2.trrsf.com/image/fget/cf/1200/628/images.terra.com/2022/04/15/cosmos-universo-s5054l4wbjg8.gif");
-            }
-           
-            .direita{
-                width:190px;
-                height:630px;
-                display:inline-block;
-                float:right;
-                background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
-            }
-
+            
         </style>
     </head>
     <body>
@@ -69,36 +26,35 @@
                 <div class="centro">
                     <fieldset>
                         <legend>CALCULADORA</legend>
-                            <input type="number" id="campo">
+                            <input type="text" id="visor">
                             </br></br>
-                            <button id="btn_um">1</button>
-                            <button id="btn_dois">2</button>
-                            <button id="btn_tres">3</button>
-                            <button id="btn_adicao">+</button>
-                            <button id="btn_porcentagem">%</button>
+                            <button id="btn_um" onclick="adicionar('1')">1</button>
+                            <button id="btn_dois" onclick="adicionar('2')">2</button>
+                            <button id="btn_tres" onclick="adicionar('3')">3</button>
+                            <button id="btn_adicao" onclick="adicionar('+')">+</button>
+                            <button id="btn_porcentagem" onclick="adicionar('%')">%</button>
                         </br></br>
                         </br></br>
-                            <button id="btn_quatro">4</button>
-                            <button id="btn_cinco">5</button>
-                            <button id="btn_seis">6</button>
-                            <button id="btn_subtracao">-</button>
-                            <button id="btn_potencia">^</button>
+                            <button id="btn_quatro" onclick="adicionar('4')">4</button>
+                            <button id="btn_cinco" onclick="adicionar('5')">5</button>
+                            <button id="btn_seis" onclick="adicionar('6')">6</button>
+                            <button id="btn_subtracao" onclick="adicionar('-')">-</button>
+                            <button id="btn_potencia" onclick="adicionar('^')">^</button>
                         </br></br>
-                            <button id="btn_sete">7</button>
-                            <button id="btn_oito">8</button>
-                            <button id="btn_nove">9</button>
-                            <button id="btn_divisao">/</button>
-                            <button id="btn_pa">(</button>
+                            <button id="btn_sete" onclick="adicionar('7')">7</button>
+                            <button id="btn_oito" onclick="adicionar('8')">8</button>
+                            <button id="btn_nove" onclick="adicionar('9')">9</button>
+                            <button id="btn_divisao" onclick="adicionar('/')">/</button>
+                            <button id="btn_pa" onclick="adicionar('')">(</button>
                         </br></br>
-                            <button id="btn_ponto">.</button>
-                            <button id="btn_zero">0</button>
-                            <button id="btn_virgula">,</button>
-                            <button id="btn_multiplicacao">x</button>
-                            <button id="btn_pf">)</button>
-
+                            <button id="btn_ponto" onclick="adicionar('.')">.</button>
+                            <button id="btn_zero" onclick="adicionar('0')">0</button>
+                            <button id="btn_virgula" onclick="adicionar(',')">,</button>
+                            <button id="btn_multiplicacao" onclick="adicionar('*')">x</button>
+                            <button id="btn_pf" onclick="adicionar('')">)</button>
                         </br></br>
-                            <button id="btn_limpar">C</button>
-                            <button id="btn_igual">=</button>                
+                            <button id="btn_limpar" onclick="limpar()">C</button>
+                            <button id="btn_igual" onclick="calcular()">=</button>                
                         </br></br>
                     </fieldset>
                 </div>
