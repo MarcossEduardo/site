@@ -1,1 +1,48 @@
+// comando // cria comentarios.
+// comentarios servem para deixar os codigos organizados
+
+// javascript E case sensitive (diferencia letras maíusculas de letras mínusculas)
+
+// varíaveis servem para armazenar informacoes.
+// elas são organizados em string, int, boolean, etc.
+// comando que cria varíaveis é o let, porém é possivel também usar o "const".
+// para mostrar alguma coisa na tela, é usado o codigo "console.log();"
+
+// varíaveis do tipo string
+let idade = "dezessete anos";
+let complemento = " de idade";
+console.log(idade+complemento);
+
+// varíaveis do tipo inteiro
+let altura = 175;
+altura *= 10;
+
+console.log(altura);
+
+// varíaveis do tipo booleano
+let numero1 = 10;
+let numero2 = 9;
+let numero3 = 10;
+
+console.log(numero1===numero3);
+
+// trabalhando com condicionais
+if(numero1==10){
+    console.log("o numero1 vale 10");
+}else{
+    console.log("o numero1 vale 10");
+}
+
+// codigo é = "&&"
+// codigo é = "||"
+
+let idadex =16;
+
+if(idadex<16){
+    console.log("eleitor não pode votar");
+}else if(idadex >=18 && idadex <=70){
+    console.log("eleitor é obrigado a votar");
+}else if(idadex >= 16 && idadex < 18 || idadex >70){
+    console.log("eleitor possui voto facultativo");
+}
 
