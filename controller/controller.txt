@@ -45,4 +45,96 @@ if(idadex<16){
 }else if(idadex >= 16 && idadex < 18 || idadex >70){
     console.log("eleitor possui voto facultativo");
 }
+// declarando as variaveis dos numeros sorteados
 
+let numsort1 = 28;
+let numsort2 = 34;
+let numsort3 = 51;
+let numsort4 = 17;
+let numsort5 = 44;
+let numsort6 =      12;
+
+// declarando as variaveis dos numeros apostados
+
+let numapost1 = 34;
+let numapost2 = 28;
+let numapost3 = 17;
+let numapost4 = 51;
+let numapost5 = 12;
+let numapost6 = 44;
+
+// verificacao da dezena sorteada
+
+let dezena1;
+let dezena2;
+let dezena3;
+let dezena4;
+let dezena5;
+let dezena6;
+
+
+if(numapost1 == numsort1 ||
+numapost1 == numsort2 ||
+numapost1 == numsort3 ||
+numapost1 == numsort4 ||
+numapost1 == numsort5 ||
+numapost1 == numsort6 
+){  
+    dezena1 = 0;
+    console.log(dezena1);
+}
+if(numapost2 == numsort1 ||
+numapost2 == numsort2 ||
+numapost2 == numsort3 ||
+numapost2 == numsort4 ||
+numapost2 == numsort5 ||
+numapost2 == numsort6 ){
+    
+    dezena2 = 0;
+    console.log(dezena2);
+    
+}
+if(numapost3 == numsort1 ||
+numapost3 == numsort2 ||
+numapost3 == numsort3 ||
+numapost3 == numsort4 ||
+numapost3 == numsort5 ||
+numapost3 == numsort6 ){
+    
+    dezena3 = 0;
+    console.log(dezena3);
+    
+}
+if(numapost4 == numsort1 ||
+numapost4 == numsort2 ||
+numapost4 == numsort3 ||
+numapost4 == numsort4 ||
+numapost4 == numsort5 ||
+numapost4 == numsort6 ){
+    
+    dezena4 = 0;
+    console.log(dezena4);
+    
+}
+if(numapost5 == numsort1 ||
+numapost5 == numsort2 ||
+numapost5 == numsort3 ||
+numapost5 == numsort4 ||
+numapost5 == numsort5 ||
+numapost5 == numsort6 ){
+    
+    dezena5 = 0;
+    console.log(dezena5);
+    
+}
+if(numapost6 == numsort1 ||
+numapost6 == numsort2 ||
+numapost6 == numsort3 ||
+numapost6 == numsort4 ||
+numapost6 == numsort5 ||
+numapost6 == numsort6 ){
+    
+    dezena6 = 0;
+    console.log(dezena6);
+    
+}
